@@ -1,4 +1,4 @@
-let btn = document.getElementById('btn')
+let menuBtn = document.getElementById('btn')
 let sidebar = document.getElementById('sidebar-container')
 
 function sidebarVisable() {
@@ -6,4 +6,4 @@ function sidebarVisable() {
 
 }
 
-btn.addEventListener('click', sidebarVisable)
+menuBtn.addEventListener('click', sidebarVisable)
